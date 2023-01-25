@@ -1,1 +1,2 @@
 Menambah file.txt
+Tambahan untuk contoh 1
