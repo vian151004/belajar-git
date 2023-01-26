@@ -4,6 +4,7 @@ core.editor=code --wait
 diff.tool=default-difftool
 difftool.default-difftool.cmd=code --wait --diff $LOCAL $REMOTE
 
+cd belajar-git-dasar --> masuk direktori
 git init --> membuat repository di file lokal
 git status --> mengetahui sebuah status dari sebuah repository lokal
 git add <filename> --> menambahkan file baru di staging index.
@@ -11,6 +12,12 @@ git add <filename> <filename> --> menambahkan beberapa file baru ke staging inde
 git add . --> menambahkan semua file baru ke stagng index
 git commit -m --> menyimpan perubahan file yang sudah dilakukan ke repository
 git restore <filename> --> membatalkan perubahan file (delete,update dll selama di working)
+git restore --staged <filename> --> memindahkan file ke working dir ( dari staging index)
+git log --> melihat semua history (terbaru-terlama)
+git log -oneline --> melihat semua history (log massage nya aja)
+git log --oneline --graph --> melihat semua history (melihat hubungan dgn commit sebelumnya)
+						    (belajar git branching dulu)
+git show <hash> (melihat) --> melihat perubahan yang terjadi pada sebuah commit
 git push: digunakan dalam mengirimkan perubahan file yang dilakukan setelah di commit ke remote repository
 git branch: adalah perintah untuk melihat semua cabang di repository
 git checkout: sebuah perintah yang digunakan untuk menukar branch yang aktif dengan bracht yang sudah dipilih.
