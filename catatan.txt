@@ -4,14 +4,15 @@ core.editor=code --wait
 diff.tool=default-difftool
 difftool.default-difftool.cmd=code --wait --diff $LOCAL $REMOTE
 
-GIT ini --> membuat repository di file lokal
-GIT status --> mengetahui sebuah status dari sebuah repository lokal
-GIT add <filename> --> menambahkan file baru di staging index.
-GIT add <filename> <filename> --> menambahkan beberapa file baru ke staging index.
-GIT add . --> menambahkan semua file baru ke stagng index
-GIT commit -m --> menyimpan perubahan file yang sudah dilakukan ke repository
-GIT push: digunakan dalam mengirimkan perubahan file yang dilakukan setelah di commit ke remote repository
-GIT branch: adalah perintah untuk melihat semua cabang di repository
-GIT checkout: sebuah perintah yang digunakan untuk menukar branch yang aktif dengan bracht yang sudah dipilih.
-GIT merge: perintah yang digunakan untuk menggabungkan cabang aktif serta cabang yang dipilih
-GIT clone: adalah perintah yang digunakan untuk mengkloning repository lokal
+git init --> membuat repository di file lokal
+git status --> mengetahui sebuah status dari sebuah repository lokal
+git add <filename> --> menambahkan file baru di staging index.
+git add <filename> <filename> --> menambahkan beberapa file baru ke staging index.
+git add . --> menambahkan semua file baru ke stagng index
+git commit -m --> menyimpan perubahan file yang sudah dilakukan ke repository
+git restore <filename> --> membatalkan perubahan file
+git push: digunakan dalam mengirimkan perubahan file yang dilakukan setelah di commit ke remote repository
+git branch: adalah perintah untuk melihat semua cabang di repository
+git checkout: sebuah perintah yang digunakan untuk menukar branch yang aktif dengan bracht yang sudah dipilih.
+git merge: perintah yang digunakan untuk menggabungkan cabang aktif serta cabang yang dipilih
+git clone: adalah perintah yang digunakan untuk mengkloning repository lokal
