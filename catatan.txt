@@ -18,6 +18,17 @@ git log -oneline --> melihat semua history (log massage nya aja)
 git log --oneline --graph --> melihat semua history (melihat hubungan dgn commit sebelumnya)
 						    (belajar git branching dulu)
 git show <hash> (melihat) --> melihat perubahan yang terjadi pada sebuah commit
+git diff <hash1> <hash2> --> compare commit 
+git diff <hash1> HEAD --> compare commit apapun dengan head/commit terbaru
+git difftool <hash1><hash2> --> compare commit di gitbash (lihat di vscode hasilnya)
+git reset <mode> hash --> reset commit (meggeser commit si HEAD, commit selanjutnya dilakukan pd posisi HEAD baru)
+	<mode> = --soft (memindahkan HEAD pointer, tetapi tidak merubah apapun di staging dan working)
+		   	 --mixed (memindahkan HEAD pointer, mengubah Staging Index sama seprti Repository tetapi tidak merubah apapun working)
+		   	 --hard (memindahkan HEAD pointer, mengubah Staging Index dan Working sama seperti Repository)
+git commit --amend -m "massage bebas" --> langsung commit perubahan file tanpa harus commit dari awal(digabungankan dengan commit sebelumnya)
+git show HEAD --> melihat perubahan terbaru
+git checkout <hash> -- <filename> --> melihat versi  file pada commit sebelumnya
+
 git push: digunakan dalam mengirimkan perubahan file yang dilakukan setelah di commit ke remote repository
 git branch: adalah perintah untuk melihat semua cabang di repository
 git checkout: sebuah perintah yang digunakan untuk menukar branch yang aktif dengan bracht yang sudah dipilih.
