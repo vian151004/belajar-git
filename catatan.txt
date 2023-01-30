@@ -28,6 +28,18 @@ git reset <mode> hash --> reset commit (meggeser commit si HEAD, commit selanjut
 git commit --amend -m "massage bebas" --> langsung commit perubahan file tanpa harus commit dari awal(digabungankan dengan commit sebelumnya)
 git show HEAD --> melihat perubahan terbaru
 git checkout <hash> -- <filename> --> melihat versi  file pada commit sebelumnya
+git checkout <hash> --> menuju ke hash tertentu (snapshot sebelumnya)
+git checkout <branchname> --> menuju ke paling awal/kembali
+git branch --show-current --> melihat nama branch saat ini
+git revert <hash> --> untuk revert commit / membatalkan commit sebelumya, commit sebelumnya tidak hilang
+menambahkan file .gitignore di Repo --> agar file tidak di track di Git
+				    				--> tambahkan tiap baris difile .gitignore berisi folder/file yang tidak ingin ditrack
+git blame <filename> --> mencari tahu siapa yang menambah perubahan pada file serta commitnya
+Alias --> untuk menambah nam perintsh lain untuk perintah yang sudah ada di git (shortcut)(laptop pribadi)
+		contoh: -git config --global alias.ko commit (ko=commit)
+				-git config --global alias.komit commit (komit=commit)
+				-git config --global alias.logone "log --oneline" (logone=log --oneline)				    
+				-git config --global alias.log1 "log --oneline" (log1=log --oneline)				    
 
 git push: digunakan dalam mengirimkan perubahan file yang dilakukan setelah di commit ke remote repository
 git branch: adalah perintah untuk melihat semua cabang di repository
