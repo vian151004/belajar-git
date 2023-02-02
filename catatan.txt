@@ -4,6 +4,7 @@ core.editor=code --wait
 diff.tool=default-difftool
 difftool.default-difftool.cmd=code --wait --diff $LOCAL $REMOTE
 
+*GIT DASAR*
 cd belajar-git-dasar --> masuk direktori
 git init --> membuat repository di file lokal
 git status --> mengetahui sebuah status dari sebuah repository lokal
