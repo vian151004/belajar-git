@@ -11,7 +11,8 @@ git status --> mengetahui sebuah status dari sebuah repository lokal
 git add <filename> --> menambahkan file baru di staging index.
 git add <filename> <filename> --> menambahkan beberapa file baru ke staging index.
 git add . --> menambahkan semua file baru ke stagng index
-git commit -m --> menyimpan perubahan file yang sudah dilakukan ke repository
+git commit -m "massagebebas" --> menyimpan perubahan file yang sudah dilakukan ke repository
+git commit -a -m "massagebebas" --> memindahkan file lagnsung ke stagging dan repo
 git restore <filename> --> membatalkan perubahan file (delete,update dll selama di working)
 git restore --staged <filename> --> memindahkan file ke working dir ( dari staging index)
 git log --> melihat semua history (terbaru-terlama)
