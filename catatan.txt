@@ -1,5 +1,5 @@
-user.name=Vian Maulana Ramadhan
-user.email=vianmaulana540@gmail.com
+user.name=Vian Maulana Ramadhan -->git config --global user.email "Vian Maulana Ramadhan"
+user.email=vianmaulana540@gmail.com -->git config --global user.email "vianmaulana540@gmail.com"
 core.editor=code --wait
 diff.tool=default-difftool
 difftool.default-difftool.cmd=code --wait --diff $LOCAL $REMOTE
@@ -42,9 +42,6 @@ Alias --> untuk menambah nam perintsh lain untuk perintah yang sudah ada di git 
 				-git config --global alias.komit commit (komit=commit)
 				-git config --global alias.logone "log --oneline" (logone=log --oneline)				    
 				-git config --global alias.log1 "log --oneline" (log1=log --oneline)				    
-
-git push: digunakan dalam mengirimkan perubahan file yang dilakukan setelah di commit ke remote repository
-git branch: adalah perintah untuk melihat semua cabang di repository
-git checkout: sebuah perintah yang digunakan untuk menukar branch yang aktif dengan bracht yang sudah dipilih.
+git push -u origin <branchname>: digunakan dalam mengirimkan perubahan file yang dilakukan setelah di commit ke remote repository
 git merge: perintah yang digunakan untuk menggabungkan cabang aktif serta cabang yang dipilih
 git clone: adalah perintah yang digunakan untuk mengkloning repository lokal
