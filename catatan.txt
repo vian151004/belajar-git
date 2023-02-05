@@ -42,6 +42,24 @@ Alias --> untuk menambah nam perintsh lain untuk perintah yang sudah ada di git 
 				-git config --global alias.komit commit (komit=commit)
 				-git config --global alias.logone "log --oneline" (logone=log --oneline)				    
 				-git config --global alias.log1 "log --oneline" (log1=log --oneline)				    
+
+*GIT BRANCHING*
+git branch --show-current --> melihat posisi branch sekarang
+git branch <newbranchname> --> membuat branch baru
+git branch --list --> melihat semua branch di repo
+git branch --> melihat semua branch di repo
+git switch <branchname> --> pindah branch
+git checkout <branchname> --> pindah branch
+git branch -m <newbranchname> --> rename nama branch (pindah dulu ke branch yang ingin diubah) 
+git branch -d <branchname> --> del branch (keluar dari branch yang mau dihapus dulu)
+git branch --delete <branchname> --> del branch (keluar dari branch yang mau dihapus dulu)
 git push -u origin <branchname>: digunakan dalam mengirimkan perubahan file yang dilakukan setelah di commit ke remote repository
+
+*GITHUB*
+-u --> untracked files yang belum masuk ke Git
+-m --> modified file yang sudah masuk ke Git dan sudah pernah dimodifikasi
+-d --> delete file
+-a --> file yang ditambahkan kedalam staging index
+
 git merge: perintah yang digunakan untuk menggabungkan cabang aktif serta cabang yang dipilih
 git clone: adalah perintah yang digunakan untuk mengkloning repository lokal
