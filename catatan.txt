@@ -62,4 +62,12 @@ git push -u origin <branchname>: digunakan dalam mengirimkan perubahan file yang
 -d --> delete file
 -a --> file yang ditambahkan kedalam staging index
 
+*MERGE* (penggabungan 2 branch)
 git merge: perintah yang digunakan untuk menggabungkan cabang aktif serta cabang yang dipilih
+-pindah dulu ke branch dimana merge mau dilakukan
+git merge <branchname> --> branch dari <branchname> akan di merge ke dalam branch saat ini sy berada
+git merge --abort --> membatalkan merge
+#bila terjadi, harus diperbaiki dulu manual dengan commit file nya dulu
+#terjadi apabila 1 file diubah di 2 branch berbeda
+
+
