@@ -70,4 +70,10 @@ git merge --abort --> membatalkan merge
 #bila terjadi, harus diperbaiki dulu manual dengan commit file nya dulu
 #terjadi apabila 1 file diubah di 2 branch berbeda
 
+*CHERRY PICK*
+#fitur untuk mengambil commit dari branch manapun dan di merge ke dlm branch saat ini
+git cherry-pick <commitId/hash> -->memilih commit mana yang ingin di merge kembali dulu ke branch master
+
+
+
 
