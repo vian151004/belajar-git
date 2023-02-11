@@ -5,7 +5,6 @@ diff.tool=default-difftool
 difftool.default-difftool.cmd=code --wait --diff $LOCAL $REMOTE
 
 *GIT DASAR*
-$ git push -u origin <branchname>
 cd belajar-git-dasar --> masuk direktori
 git init --> membuat repository di file lokal
 git status --> mengetahui sebuah status dari sebuah repository lokal
@@ -74,6 +73,14 @@ git merge --abort --> membatalkan merge
 #fitur untuk mengambil commit dari branch manapun dan di merge ke dlm branch saat ini
 git cherry-pick <commitId/hash> -->memilih commit mana yang ingin di merge kembali dulu ke branch master
 
+*GIT REMOTE*
+git remote add <remotename> <ssh-url> --> menambah remote 
+git remote --> melihat remote repo di git
+git remote get-url <remotename> --> melihat url detail remote repo
+git remote rm <remotename> --> menghapus remote
 
+*PUSH*
+git push -u <remotename> --> mengirim perubahan dari local ke server (nama branch yg sama)
+git push <remotename> <localbranchname>:<remotebranchname> -- mengirim perubahan branch dengan nama branch yang berbeda
 
 
